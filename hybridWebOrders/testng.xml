@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="WebOrdersLoginFunctionality">
+    <classes>
+      <class name="com.weborder.testpages.LoginPageScreenTest"/>
+      <class name="com.weborder.testpages.SignUpScreenPageTest"/>
+      <class name="com.weborder.testpages.ForgotPasswordScreenTest"/>
+    </classes>
+  </test> <!-- WebOrdersLoginFunctionality -->
+</suite> <!-- Suite -->

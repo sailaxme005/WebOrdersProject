@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="WebOrdersLoginFunctionality(failed)">
+    <classes>
+      <class name="com.weborder.testpages.SignUpScreenPageTest">
+        <methods>
+          <include name="verify_clickOnSignUp_login"/>
+          <include name="verify_clickOnContinueAsGuest"/>
+          <include name="verify_fillUpSignup"/>
+          <include name="Initilizationdriver"/>
+          <include name="verify_clickOnSignMeUp"/>
+        </methods>
+      </class> <!-- com.weborder.testpages.SignUpScreenPageTest -->
+      <class name="com.weborder.testpages.ForgotPasswordScreenTest">
+        <methods>
+          <include name="verify_clickOnForgotPassword"/>
+          <include name="verify_clickOnLogInFp"/>
+          <include name="verify_clickOnSubmit"/>
+          <include name="initilizationDriver"/>
+        </methods>
+      </class> <!-- com.weborder.testpages.ForgotPasswordScreenTest -->
+    </classes>
+  </test> <!-- WebOrdersLoginFunctionality(failed) -->
+</suite> <!-- Failed suite [Suite] -->
